@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "embla-carousel": "^8.0.0-rc14",
+    "embla-carousel-autoplay": "^8.0.0-rc14",
+    "embla-carousel-react": "^8.0.0-rc14",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/react": "^18.2.37",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",

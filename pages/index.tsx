@@ -1,10 +1,12 @@
-import Image from "next/image";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <>
+    <Header />
       <div
-        className=" text-white h-full relative flex items-center justify-center"
+        className=" text-white h-screen relative flex items-center justify-center"
         style={{
           backgroundImage: "url(asset1.png)",
           backgroundPosition: "top",
@@ -17,6 +19,7 @@ export default function Home() {
           <h1 className="text-2xl">by Cygnus</h1>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

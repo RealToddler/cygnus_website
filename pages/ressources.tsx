@@ -17,8 +17,7 @@ export default function Ressources() {
                   className="grid grid-cols-1 gap-4
                 md:grid-cols-2 md:gap-24"
                 >
-                  <RessourceContent />
-                  <RessourceContent />
+                  <RessourceContent title="Cahier des charges" path="Galaxy Traveller CDC.pdf"/>
                 </div>
                 <h1 className="text-2xl">Ressources Externes</h1>
                 <ol>

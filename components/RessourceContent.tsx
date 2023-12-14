@@ -1,11 +1,11 @@
 import dateFormat, { masks } from "dateformat";
 
-const RessourceContent = () => {
+const RessourceContent = (obj : {title: string, path: string}) => {
   return (
     <>
       <div className="bg-tekhelet rounded-lg flex">
         <div className="w-fit p-2">
-          <a href="/asset2.png" download={true}>
+          <a href={`/${obj.path}`} download={true}>
             <div
               className="
             hover:font-semibold cursor-pointer"
@@ -15,7 +15,7 @@ const RessourceContent = () => {
           </a>
         </div>
         <div className="p-2">
-            <h1>TITRE</h1>
+            <h1>{obj.title.toUpperCase()}</h1>
         </div>
       </div>
     </>

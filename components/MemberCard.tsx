@@ -3,7 +3,7 @@ import Image from "next/image";
 const MemberCard = (obj : {lastName : string, firstName : string, desc: string}) => {
   return (
     <>
-      <div className="md:w-64 h-1/2 bg-rosequartz rounded-lg p-4 space-y-2 text-justify border border-tekhelet flex">
+      <div className="md:w-72 h-2/3 bg-rosequartz rounded-lg p-4 space-y-2 text-justify border border-tekhelet flex">
         <div className="h-full w-full">
           <Image
             src={`/${obj.firstName.toLowerCase()}.png`}

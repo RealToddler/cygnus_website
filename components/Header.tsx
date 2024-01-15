@@ -15,36 +15,45 @@ const Header = () => {
           />
         </Link>
         <div className="flex self-center space-x-4 text-xl">
-          <Link href="/project">
-            <div
-              className="border-b-2 border-rosequartz
+          <div
+            className="border-b-2 border-rosequartz
             transition duration-250 ease-linear
             hover:border-russianviolet
             cursor-pointer"
-            >
-              Présentation
-            </div>
-          </Link>
-          <Link href="/team">
-            <div
-              className="border-b-2 border-rosequartz
+            onClick={() =>
+              document
+                .getElementById("presentation")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            Présentation
+          </div>
+          <div
+            className="border-b-2 border-rosequartz
             transition duration-250 ease-linear
             hover:border-russianviolet
             cursor-pointer"
-            >
-              Equipe
-            </div>
-          </Link>
-          <Link href="/ressources">
-            <div
-              className="border-b-2 border-rosequartz
+            onClick={() =>
+              document
+                .getElementById("team")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            Equipe
+          </div>
+          <div
+            className="border-b-2 border-rosequartz
             transition duration-250 ease-linear
             hover:border-russianviolet
             cursor-pointer"
-            >
-              Ressources
-            </div>
-          </Link>
+            onClick={() =>
+              document
+                .getElementById("ressources")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            Ressources
+          </div>
         </div>
       </div>
     </>

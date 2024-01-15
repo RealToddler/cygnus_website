@@ -11,7 +11,16 @@ export default function Team() {
           className="flex justify-center items-center bg-tekhelet h-32
           md:h-1/5"
         >
-          STORY TELLING
+          <div>
+            <div className="text-center">
+              Galaxy Traveller a été développé par l{"'"}entreprise Cygnus qui
+              est constituée de 4 jeunes et ambitieux développeurs.
+            </div>
+            <div className="text-center">
+              La fleurissante entreprise est fière de vous présenter son tout
+              premier projet.
+            </div>
+          </div>
         </div>
         <div className="flex justify-center bg-timberwolf md:h-4/5 w-full">
           <div

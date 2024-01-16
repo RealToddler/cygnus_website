@@ -7,15 +7,23 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className=" text-white min-h-screen h-auto flex items-center justify-center bg-tekhelet">
+      <div
+        className=" text-white min-h-screen h-auto flex items-center justify-center bg-tekhelet"
+        style={{
+          backgroundImage: "url('asset6.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <div>
           <div className="flex items-end space-x-2 self-center">
-            <h1 className="text-center flex text-4xl">Galaxy Traveller</h1>
+            <h1 className="text-center flex text-5xl">Galaxy Traveller</h1>
             <h1 className="text-2xl">by Cygnus</h1>
           </div>
-          <div className="flex mt-24 justify-center">
+          <div className="flex mt-20 justify-center">
             <a href="/asset2.png" download={true}>
-              <div className="animate-bounce transition font-semibold ease-in-out hover:text-russianviolet cursor-pointer">
+              <div className="animate-bounce transition font-semibold ease-in-out hover:text-tekhelet cursor-pointer text-lg">
                 Télécharger Maintenant
               </div>
             </a>
@@ -26,8 +34,27 @@ export default function Home() {
         className=" text-white text-xl text-justify min-h-screen h-fit py-8 relative flex items-center justify-center bg-russianviolet"
         id="presentation"
       >
-        <div className="px-96 space-y-12 text-justify">
+        <div className="px-64 space-y-12 text-justify">
           <div className="text-5xl underline">Présentation</div>
+          <div className="text-xl text-justify ">
+            &emsp;Votre vaisseau spatial vient de s{"'"}écraser sur une planète
+            inconnue et hostile. Vous avez tout essayé pour le faire redémarrer
+            mais c{"'"}est peine perdu, il n{"'"}est plus en état de décoller.
+            Vous vous retrouvez alors coincé sur cette planète mais par chance
+            juste avant l{"'"}impact, vous avez quand même réussi à localiser un
+            vaisseau qui pourrait vous permettre de vous échapper. Il semble se
+            situer sur une base avancée à quelques planète de là.
+            <br />
+            <br />
+            &emsp;Combattez les habitants des planètes, franchissez les
+            obstacles causés par la géographie si particulière de celles-ci et
+            profitez en pour récupérer du matériel pour affronter les épreuves
+            futures ! Mais attention, votre temps est compté, vos réserves d
+            {"'"}oxygène s{"'"}amenuisent de minutes en minutes et il semble qu
+            {"'"}un monstre redoutable ai pris possession de la dernière
+            planète, celle où votre dernier espoir de vous en sortir vous
+            attend…
+          </div>
           <div className="border p-8 rounded-lg">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi enim
             nulla nihil sint, tempora dolor voluptatibus aut doloribus aperiam
@@ -46,22 +73,10 @@ export default function Home() {
             id odit at et consequuntur repellendus ipsum, deserunt sequi ipsa
             iure omnis vitae a.
           </div>
-          <div className="text-xl text-justify ">
-            Votre vaisseau spatial vient de s{"'"}écraser sur une planète
-            inconnue et hostile. Dans votre malheur, vous avez quand même réussi
-            à localiser un vaisseau qui pourrait vous permettre de vous
-            échapper. Votre objectif est d{"'"}affronter la planète et ses
-            occupants afin de rejoindre ce vaisseau avant que vous n{"'"}ayez
-            plus d{"'"}oxyène ! Combattez les habitants des planètes et
-            franchissez les obstacles que celles-ci vous tendent en un temps
-            record afin de garder de l{"'"}
-            oxygène en réserve si jamais vous deviez à nouveau vous retrouver
-            dans une situation périeuse...
-          </div>
         </div>
       </div>
-      <div className="md:min-h-screen md:h-fit text-white" id="team">
-        <div className="flex text-xl justify-center bg-tekhelet items-center pb-8 min-h-auto">
+      <div className="md:h-fit text-white bg-tekhelet" id="team">
+        <div className="flex text-xl justify-center items-center pb-8 min-h-auto px-64">
           <div className="space-y-12">
             <div className="text-5xl underline pt-8">L{"'"}équipe</div>
             <div>
@@ -76,7 +91,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center bg-timberwolf w-full py-8" id="team">
+        <div className="flex justify-center w-full py-8" id="team">
           <div
             className="py-8 space-y-8 md:items-center
         md:py-0 md:space-y-0 md:flex md:justify-center md:space-x-12 md:w-full
@@ -86,25 +101,25 @@ export default function Home() {
               key={1}
               lastName="Thome"
               firstName="Aubin"
-              desc="aller zou"
+              desc="Responsable Programmation"
             />
             <MemberCard
               key={2}
               lastName="Blanc"
               firstName="Johan"
-              desc="Premier deg"
+              desc="Responsable UI"
             />
             <MemberCard
               key={3}
               lastName="Belperin"
               firstName="Noé"
-              desc="C't'ap"
+              desc="Responsable Intelligence Artificielle"
             />
             <MemberCard
               key={4}
               lastName="Defontaine"
               firstName="Emilien"
-              desc="C'est ça qu'faut s'dire"
+              desc="Responsable Réseau"
             />
           </div>
         </div>

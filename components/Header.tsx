@@ -14,7 +14,7 @@ const Header = () => {
             className="h-[90px] w-[90px]"
           />
         </Link>
-        <div className="flex self-center space-x-4 text-xl">
+        <div className="flex self-center space-x-4 text-2xl">
           <div
             className="border-b-2 border-rosequartz
             transition duration-250 ease-linear

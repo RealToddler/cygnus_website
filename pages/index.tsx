@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className=" text-white h-screen relative flex items-center justify-center bg-tekhelet">
+      <div className=" text-white min-h-screen h-auto flex items-center justify-center bg-tekhelet">
         <div>
           <div className="flex items-end space-x-2 self-center">
             <h1 className="text-center flex text-4xl">Galaxy Traveller</h1>
@@ -23,11 +23,11 @@ export default function Home() {
         </div>
       </div>
       <div
-        className=" text-white text-xl text-justify h-screen relative flex items-center justify-center bg-russianviolet"
+        className=" text-white text-xl text-justify min-h-screen h-fit py-8 relative flex items-center justify-center bg-russianviolet"
         id="presentation"
       >
         <div className="px-96 space-y-12 text-justify">
-          <div className="text-5xl underline mb-24">Présentation</div>
+          <div className="text-5xl underline">Présentation</div>
           <div className="border p-8 rounded-lg">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi enim
             nulla nihil sint, tempora dolor voluptatibus aut doloribus aperiam
@@ -60,10 +60,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="md:h-screen" id="team">
+      <div className="md:min-h-screen md:h-fit bg-tekhelet py-8" id="team">
         <div
-          className="flex text-xl justify-center items-center bg-tekhelet h-32
-          md:h-auto md:py-4"
+          className="flex text-xl justify-center items-center pb-8 h-32
+          md:h-auto"
         >
           <div className="space-y-24">
             <div className="text-5xl underline">L{"'"}équipe</div>
@@ -120,7 +120,9 @@ export default function Home() {
           <div className="flex justify-center w-full">
             <div className="justify-center w-10/12 ">
               <div className="space-y-4">
-                <h1 className="text-5xl underline mb-20">Documents & Manuels</h1>
+                <h1 className="text-5xl underline mb-20">
+                  Documents & Manuels
+                </h1>
                 <div
                   className="grid grid-cols-1 gap-4
                 md:grid-cols-2 md:gap-24"

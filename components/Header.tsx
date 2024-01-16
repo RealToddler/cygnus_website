@@ -11,7 +11,7 @@ const Header = () => {
             alt="cygnus logo"
             width={500}
             height={500}
-            className="h-[90px] w-[90px]"
+            className="h-[75px] w-[75px]"
           />
         </Link>
         <div className="flex self-center space-x-4 text-2xl">

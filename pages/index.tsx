@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="md:min-h-screen md:h-fit" id="team">
+      <div className="md:min-h-screen md:h-fit text-white" id="team">
         <div className="flex text-xl justify-center bg-tekhelet items-center pb-8 min-h-auto">
           <div className="space-y-12">
             <div className="text-5xl underline pt-8">L{"'"}équipe</div>
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center bg-timberwolf w-full" id="team">
+        <div className="flex justify-center bg-timberwolf w-full py-8" id="team">
           <div
             className="py-8 space-y-8 md:items-center
         md:py-0 md:space-y-0 md:flex md:justify-center md:space-x-12 md:w-full

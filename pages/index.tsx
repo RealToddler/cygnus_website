@@ -18,8 +18,9 @@ export default function Home() {
       >
         <div>
           <div className="flex items-end space-x-2 self-center">
-            <h1 className="text-center flex text-5xl">Galaxy Traveller</h1>
-            <h1 className="text-2xl">by Cygnus</h1>
+            <h1 className="text-center flex text-8xl font-horizon">
+              Galaxy Traveller
+            </h1>
           </div>
           <div className="flex mt-20 justify-center">
             <a href="/asset2.png" download={true}>
@@ -76,7 +77,7 @@ export default function Home() {
         </div>
       </div>
       <div className="md:h-fit text-white bg-tekhelet" id="team">
-        <div className="flex text-xl justify-center items-center pb-8 min-h-auto px-64">
+        <div className="flex text-xl items-center pb-8 min-h-auto px-64">
           <div className="space-y-12">
             <div className="text-5xl underline pt-8">L{"'"}équipe</div>
             <div>
@@ -124,22 +125,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-rosequartz" id="ressources">
-        <div className="space-y-6 pt-4">
-          <div className="flex justify-center w-full">
-            <div className="justify-center w-10/12 ">
+      <div className="bg-russianviolet" id="ressources">
+        <div className="space-y-6">
+          <div className="flex w-full">
+            <div className="justify-center w-full">
               <div className="space-y-4">
-                <h1 className="text-5xl underline mb-20">
+                <h1 className="text-5xl underline py-8 px-64 text-white">
                   Documents & Manuels
                 </h1>
-                <div
-                  className="grid grid-cols-1 gap-4
-                md:grid-cols-2 md:gap-24"
-                >
-                  <RessourceContent
-                    title="Cahier des charges"
-                    path="Galaxy Traveller CDC.pdf"
-                  />
+                <div className="w-full px-32 flex justify-around">
+                  <RessourceContent title="Cahier des charges" path="Galaxy Traveller CDC.pdf"/>
+                  <RessourceContent title="Manuel d'installation" path="/" />
+                  <RessourceContent title="Rapport de soutenance" path="/" />
+                  <RessourceContent title="Rapport de projet" path="/" />
                 </div>
                 <h1 className="text-2xl">Ressources Externes</h1>
                 <ol>

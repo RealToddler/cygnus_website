@@ -1,5 +1,3 @@
-import dateFormat, { masks } from "dateformat";
-
 const RessourceContent = (obj : {title: string, path: string}) => {
   return (
     <>
@@ -15,7 +13,7 @@ const RessourceContent = (obj : {title: string, path: string}) => {
           </a>
         </div>
         <div className="p-2">
-            <h1>{obj.title.toUpperCase()}</h1>
+            <h1>{obj.title}</h1>
         </div>
       </div>
     </>

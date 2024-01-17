@@ -4,10 +4,10 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <div className=" bg-rosequartz h-fit flex p-4 justify-evenly md:justify-between md:pr-32 md:pl-16">
+      <div className=" bg-russianviolet h-fit flex p-4 justify-evenly md:justify-between md:pr-32 md:pl-16">
         <Link href="/">
           <Image
-            src="/logo.png"
+            src="/logo_white.png"
             alt="cygnus logo"
             width={500}
             height={500}
@@ -16,9 +16,9 @@ const Header = () => {
         </Link>
         <div className="flex self-center space-x-4 text-2xl">
           <div
-            className="border-b-2 border-rosequartz
+            className="border-b-2 border-russianviolet
             transition duration-250 ease-linear
-            hover:border-russianviolet
+            hover:border-rosequartz
             cursor-pointer"
             onClick={() =>
               document
@@ -29,9 +29,9 @@ const Header = () => {
             Présentation
           </div>
           <div
-            className="border-b-2 border-rosequartz
+            className="border-b-2 border-russianviolet
             transition duration-250 ease-linear
-            hover:border-russianviolet
+            hover:border-rosequartz
             cursor-pointer"
             onClick={() =>
               document
@@ -42,9 +42,9 @@ const Header = () => {
             Equipe
           </div>
           <div
-            className="border-b-2 border-rosequartz
+            className="border-b-2 border-russianviolet
             transition duration-250 ease-linear
-            hover:border-russianviolet
+            hover:border-rosequartz
             cursor-pointer"
             onClick={() =>
               document

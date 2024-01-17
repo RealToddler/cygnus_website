@@ -2,6 +2,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MemberCard from "@/components/MemberCard";
 import RessourceContent from "@/components/RessourceContent";
+import Link from "next/link";
+import LinkCard from "@/components/LinkCard";
 
 export default function Home() {
   return (
@@ -131,20 +133,64 @@ export default function Home() {
             <div className="justify-center w-full">
               <div className="space-y-4">
                 <h1 className="text-5xl underline py-8 px-64 text-white">
-                  Documents & Manuels
+                  Ressources
                 </h1>
-                <div className="w-full px-32 flex justify-around">
-                  <RessourceContent title="Cahier des charges" path="Galaxy Traveller CDC.pdf"/>
-                  <RessourceContent title="Manuel d'installation" path="/" />
-                  <RessourceContent title="Rapport de soutenance" path="/" />
-                  <RessourceContent title="Rapport de projet" path="/" />
+                <div className="w-full px-32 space-y-4">
+                  <div className="text-xl">Documents & Manuels</div>
+                  <div className="flex justify-between">
+                    <RessourceContent
+                      title="Cahier des charges"
+                      path="Galaxy Traveller CDC.pdf"
+                    />
+                    <RessourceContent title="Manuel d'installation" path="/" />
+                    <RessourceContent title="Rapport de soutenance" path="/" />
+                    <RessourceContent title="Rapport de projet" path="/" />
+                  </div>
                 </div>
-                <h1 className="text-2xl">Ressources Externes</h1>
-                <ol>
-                  <li>link1</li>
-                  <li>link2</li>
-                  <li>link3</li>
-                </ol>
+                <div className="w-full px-32 space-y-4 py-4">
+                  <div className="text-xl">Tutoriels</div>
+                  <div className="flex justify-center">
+                    <div className="space-y-4">
+                      <div>
+                        <LinkCard
+                          label="Première playlist de Tutos Unity (IA & Mécaniques de combat)"
+                          url="https://www.youtube.com/watch?v=eTulYE72ixc&list=PLUWxWDlz8PYIvzRTHyvx54tgWTCkgZzkZ"
+                        />
+                      </div>
+                      <div className="">
+                        <LinkCard
+                          label="Seconde playlist de Tutos Unity (déplacements & plateformes)"
+                          url="https://www.youtube.com/watch?v=n0GQL5JgJcY&list=PLrnPJCHvNZuB5ATsJZLKX3AW4V9XaIV9b"
+                        />
+                      </div>
+                      <div>
+                        <LinkCard
+                          label="Troisième playlist de Tutos Unity (Réseau avec Photon)"
+                          url="https://www.youtube.com/watch?v=H7r_rgKAlLA&list=PLpfOedZZax4xSyUKOk17b6NIL5dO7gWo-"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full px-32 space-y-4 py-4">
+                  <div className="text-xl">Documentations</div>
+                  <div className="flex justify-center">
+                    <div className="space-y-4">
+                      <div>
+                        <LinkCard
+                          label="Documentation Photon"
+                          url="https://doc.photonengine.com/pun/current/getting-started/pun-intro"
+                        />
+                      </div>
+                      <div className="">
+                        <LinkCard
+                          label="Documentation Unity"
+                          url="https://docs.unity.com/"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

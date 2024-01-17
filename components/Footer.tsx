@@ -4,10 +4,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="bg-tekhelet h-fit p-8 relative text-white">
-        <span className="text-sm flex justify-center">
-          © 2023 Cygnus. All Rights Reserved.
-        </span>
+      <div className="bg-tekhelet">
+        <div className="md:h-fit h-28 p-4 text-white text-center text-sm">© 2023 Cygnus. All Rights Reserved.</div>
       </div>
     </>
   );

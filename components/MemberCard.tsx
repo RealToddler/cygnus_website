@@ -7,14 +7,14 @@ const MemberCard = (obj: {
 }) => {
   return (
     <>
-      <div className="md:w-1/6 w-fit max-h-1/3 h-auto bg-timberwolf rounded-lg p-4 space-y-2 text-justify border border-tekhelet flex">
-        <div className="h-full w-full">
+      <div className="md:w-1/6 w-1/2 max-h-1/3 md:h-auto bg-timberwolf rounded-lg p-4 space-y-2 text-justify border border-tekhelet">
+        <div className="md:h-full md:w-full">
           <Image
             src={`/${obj.firstName.toLowerCase()}.png`}
             alt="self"
             width={500}
             height={500}
-            className="rounded-full border-tekhelet border-2 h-full w-full"
+            className="rounded-full border-tekhelet border-2 md:h-full md:w-full"
           />
           <h1 className="text-lg text-tekhelet">
             {obj.lastName.toUpperCase()} {obj.firstName}

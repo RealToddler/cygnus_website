@@ -14,7 +14,9 @@
   src: url("../public/fonts/Dashhorizon-eZ5wg.otf");
 }
 
-
+::-webkit-scrollbar {
+    display: none;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;

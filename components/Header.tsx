@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div className=" bg-russianviolet h-fit flex p-4 justify-evenly md:justify-between md:pr-32 md:pl-16 text-white">
-        <Link href="/">
+        <Link href="/" className="">
           <Image
             src="/logo_white.png"
             alt="cygnus logo"
@@ -14,7 +14,7 @@ const Header = () => {
             className="h-[75px] w-[75px]"
           />
         </Link>
-        <div className="flex self-center space-x-4 text-2xl">
+        <div className="flex self-center space-x-4 md:text-2xl ">
           <div
             className="border-b-2 border-russianviolet
             transition duration-250 ease-linear

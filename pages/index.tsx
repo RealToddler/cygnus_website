@@ -18,7 +18,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div>
+        <div className="text-white">
           <div className="flex items-end space-x-2 self-center">
             <h1 className="text-center flex text-8xl font-horizon">
               Galaxy Traveller
@@ -37,7 +37,7 @@ export default function Home() {
         className=" text-white text-xl text-justify min-h-screen h-fit py-8 relative flex items-center justify-center bg-russianviolet"
         id="presentation"
       >
-        <div className="px-64 space-y-12 text-justify">
+        <div className="px-64 space-y-12 text-justify text-white">
           <div className="text-5xl underline">Présentation</div>
           <div className="text-xl text-justify ">
             &emsp;Votre vaisseau spatial vient de s{"'"}écraser sur une planète
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center w-full py-8" id="team">
+        <div className="flex justify-center w-full py-8 text-white" id="team">
           <div
             className="py-8 space-y-8 md:items-center
         md:py-0 md:space-y-0 md:flex md:justify-center md:space-x-12 md:w-full
@@ -127,7 +127,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-russianviolet" id="ressources">
+      <div className="bg-russianviolet text-white" id="ressources">
         <div className="space-y-6">
           <div className="flex w-full">
             <div className="justify-center w-full">
@@ -173,7 +173,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="w-full px-32 space-y-4 py-4">
-                  <div className="text-xl">Documentations</div>
+                  <div className="text-xl text-white">Documentations</div>
                   <div className="flex justify-center">
                     <div className="space-y-4">
                       <div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <div className=" bg-russianviolet h-fit flex p-4 justify-evenly md:justify-between md:pr-32 md:pl-16">
+      <div className=" bg-russianviolet h-fit flex p-4 justify-evenly md:justify-between md:pr-32 md:pl-16 text-white">
         <Link href="/">
           <Image
             src="/logo_white.png"

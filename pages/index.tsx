@@ -2,7 +2,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MemberCard from "@/components/MemberCard";
 import RessourceContent from "@/components/RessourceContent";
-import Link from "next/link";
 import LinkCard from "@/components/LinkCard";
 
 export default function Home() {
@@ -58,9 +57,36 @@ export default function Home() {
             planète, celle où votre dernier espoir de vous en sortir vous
             attend…
           </div>
-          <div className="border p-8 rounded-lg">Rapidité</div>
-          <div className="border p-8 rounded-lg">Combat</div>
-          <div className="border p-8 rounded-lg">Agilité</div>
+          <div className="border p-8 rounded-lg">
+            <div className="text-center font-bold text-xl">Rapidité</div>
+            <br />
+            <div className="text-justify">
+              Atteignez le vaisseau avant que votre réserve d{"'"}oxygène ne s
+              {"'"}épuise. Assurez-vous de rejoindre votre destination spatiale
+              dans les temps.
+            </div>
+          </div>
+          <div className="border p-8 rounded-lg">
+            <div className="text-center font-bold text-xl">Combat</div>
+            <br />
+            <div className="text-justify">
+              Protégez-vous contre les habitants des planètes que vous
+              traversez. Faites face aux populations rencontrées lors de votre
+              exploration interplanétaire. Combattez les civilisations
+              planétaires pendant votre traversée cosmique.
+            </div>
+          </div>
+          <div className="border p-8 rounded-lg">
+            <div className="text-center font-bold text-xl">Agilité</div>
+            <br />
+            <div className="text-justify">
+              Exprimez vos compétences en maîtrisant les spécificités des
+              planètes. Faites valoir vos talents en explorant les reliefs
+              cosmiques. Laissez vos skills s{"'"}exprimer en apprivoisant les
+              terrains variés des astres. Domptez les reliefs planétaires et
+              faites rayonner vos capacités.
+            </div>
+          </div>
         </div>
       </div>
       <div className="md:h-fit text-white bg-tekhelet" id="team">

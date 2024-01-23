@@ -108,7 +108,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center w-full py-8 text-white" id="team">
           <div
-            className="py-8 space-y-8 grid grid-cols-1
+            className="pb-4 space-y-8 grid grid-cols-1 px-16 md:px-0
         md:py-0 md:space-y-0 md:flex justify-center md:space-x-12 md:items-center md:w-full"
           >
             <MemberCard

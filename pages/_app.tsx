@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
           url: "https://www.galaxytraveller.fr/",
           images: [
             {
-              url: "/logo_white.png",
+              url: "/logo.png",
             },
           ],
           description,
@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
         additionalLinkTags={[
           {
             rel: "icon",
-            href: "/logo.png",
+            href: "/logo_white.png",
           },
         ]}
         additionalMetaTags={[

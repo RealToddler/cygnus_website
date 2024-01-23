@@ -37,7 +37,7 @@ export default function Home() {
         id="presentation"
       >
         <div className="md:px-64 px-8 space-y-12 text-justify text-white">
-          <div className="text-5xl underline">Présentation</div>
+          <div className="text-5xl font-bold">Présentation</div>
           <div className="md:text-xl text-justify ">
             &emsp;Votre vaisseau spatial vient de s{"'"}écraser sur une planète
             inconnue et hostile. Vous avez tout essayé pour le faire redémarrer
@@ -92,7 +92,7 @@ export default function Home() {
       <div className="md:h-fit text-white bg-tekhelet" id="team">
         <div className="flex text-xl items-center pb-8 min-h-auto md:px-64 px-8">
           <div className="space-y-12">
-            <div className="text-5xl underline pt-8">L{"'"}équipe</div>
+            <div className="text-5xl font-bold pt-8">L{"'"}équipe</div>
             <div>
               <div className="text-center">
                 Galaxy Traveller a été développé par l{"'"}entreprise Cygnus qui

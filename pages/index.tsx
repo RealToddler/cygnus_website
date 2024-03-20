@@ -154,7 +154,10 @@ export default function Home() {
                       path="Galaxy Traveller CDC.pdf"
                     />
                     <RessourceContent title="Manuel d'installation" path="/" />
-                    <RessourceContent title="Rapport de soutenance" path="/" />
+                    <RessourceContent
+                      title="Rapport de soutenance"
+                      path="Rapport_de_soutenance_1.pdf"
+                    />
                     <RessourceContent title="Rapport de projet" path="/" />
                   </div>
                 </div>
@@ -178,6 +181,12 @@ export default function Home() {
                         <LinkCard
                           label="Troisième playlist de Tutos Unity (Réseau avec Photon)"
                           url="https://www.youtube.com/watch?v=H7r_rgKAlLA&list=PLpfOedZZax4xSyUKOk17b6NIL5dO7gWo-"
+                        />
+                      </div>
+                      <div>
+                        <LinkCard
+                          label="Vidéo pour la création de rooms privées avec Photon"
+                          url="https://www.youtube.com/watch?v=93SkbMpWCGo"
                         />
                       </div>
                     </div>

@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Header />
       <div
-        className="text-white min-h-screen h-auto flex items-center justify-center bg-tekhelet"
+        className="text-blackv min-h-screen h-auto flex items-center justify-center bg-tekhelet"
         style={{
           backgroundImage: "url('asset6.png')",
           backgroundSize: "cover",
@@ -19,7 +19,7 @@ export default function Home() {
       >
         <div className="text-white">
           <div className="flex items-end space-x-2 self-center">
-            <h1 className="text-center flex text-8xl font-horizon">
+            <h1 className="text-center flex text-9xl font-horizon">
               Galaxy Traveller
             </h1>
           </div>
@@ -27,17 +27,17 @@ export default function Home() {
             <a href="/asset7.png" download={true}>
               <div className="animate-bounce transition font-semibold ease-in-out hover:text-tekhelet cursor-pointer text-lg">
                 Télécharger Maintenant
-              </div>
+              </div>  
             </a>
           </div>
         </div>
       </div>
       <div
-        className="text-white text-xl text-justify min-h-screen h-fit py-8 relative flex items-center justify-center bg-indigo-700"
+        className="text-white text-xl text-justify min-h-screen h-fit relative flex items-center justify-center"
         id="presentation"
       >
-        <div className="md:px-48 px-8 space-y-12 text-justify text-white">
-          <div className="text-5xl font-bold">Présentation</div>
+        <div className="md:px-48 px-8 space-y-12 text-justify text-white bg-gradient-to-b from-indigo-900 to-blackv">
+          <div className="text-5xl font-bold pt-8">Présentation</div>
           <div className="md:text-xl text-justify">
             &emsp;Votre vaisseau spatial vient de s{"'"}écraser sur une planète
             inconnue et hostile. Vous avez tout essayé pour le faire redémarrer
@@ -57,7 +57,7 @@ export default function Home() {
             planète, celle où votre dernier espoir de vous en sortir vous
             attend…
           </div>
-          <div className="border-2 p-8 rounded-lg">
+          <div className="border-2 p-8 rounded-lg border-white">
             <div className="text-center font-bold text-2xl">Rapidité</div>
             <br />
             <div className="text-justify">
@@ -66,7 +66,7 @@ export default function Home() {
               dans les temps.
             </div>
           </div>
-          <div className="border-2 p-8 rounded-lg">
+          <div className="border-2 p-8 rounded-lg border-white">
             <div className="text-center font-bold text-2xl font">Combat</div>
             <br />
             <div className="text-justify">
@@ -76,7 +76,7 @@ export default function Home() {
               planétaires pendant votre traversée cosmique.
             </div>
           </div>
-          <div className="border-2 p-8 rounded-lg">
+          <div className="border-2 p-8 rounded-lg border-white">
             <div className="text-center font-bold text-2xl">Agilité</div>
             <br />
             <div className="text-justify">
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="md:h-fit text-white bg-indigo-900" id="team">
+      <div className="md:h-fit text-white bg-blackv" id="team">
         <div className="flex text-xl items-center pb-8 min-h-auto md:px-64 px-8">
           <div className="space-y-12">
             <div className="text-5xl font-bold pt-8">L{"'"}équipe</div>
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center w-full py-8 text-white" id="team">
+        <div className="flex justify-center w-full text-blackv pb-8" id="team">
           <div
             className="pb-4 gap-4 grid grid-cols-1 px-16 md:px-0
         md:py-0 md:space-y-0 md:flex justify-center md:space-x-12 md:items-center md:w-full"
@@ -137,7 +137,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-indigo-700 pb-8 text-white" id="ressources">
+      <div className="bg-indigo-950 pb-8 text-white" id="ressources">
         <div className="space-y-6">
           <div className="flex w-full">
             <div className="justify-center w-full">
@@ -192,7 +192,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="w-full md:px-32 px-8 space-y-4 py-4">
-                  <div className="text-xl text-white font-semibold">Documentations</div>
+                  <div className="text-xl font-semibold">Documentations</div>
                   <div className="flex justify-center">
                     <div className="space-y-4">
                       <div>

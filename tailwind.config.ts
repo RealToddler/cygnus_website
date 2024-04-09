@@ -22,7 +22,12 @@ const config: Config = {
         "timberwolf": "#CECFC7",
         "rosequartz": "#ADA8B6",
         "russianviolet": "#23022E",
-        "tekhelet": "#573280"
+        "tekhelet": "#573280", 
+        "blackv": "#18181C",
+        "greyv": "#303030"
+      },
+      gradientColorStops:{
+        "test": "from-indigo-900"
       }
     },
   },

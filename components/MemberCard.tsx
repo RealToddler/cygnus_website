@@ -7,7 +7,7 @@ const MemberCard = (obj: {
 }) => {
   return (
     <>
-        <div className="md:w-1/6 w-full h-full border-4 border-indigo-700 rounded-lg p-4 text-center">
+        <div className="md:w-1/6 w-full h-full border-4 border-white rounded-lg p-4 text-center text-white">
           <h1 className="text-lg text-w font-semibold mb-3">
             {obj.lastName.toUpperCase()} {obj.firstName}
           </h1>

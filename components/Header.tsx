@@ -9,12 +9,13 @@ const Header = () => {
           <Image
             src="/logo_white.png"
             alt="cygnus logo"
-            width={300}
-            height={300}
-            className="h-[67px] w-[67px]"
+            width={80}
+            height={80}
+            className="text-center flex p-2"
+
           />
         </Link>
-        <div className="flex self-center space-x-8 md:text-lg font-bold text-white">
+        <div className="flex self-center space-x-8 md:text-xl font-bold text-white">
           <div
             className="border-b-2 border-indigo-900
             transition duration-250 ease-linear

@@ -18,15 +18,21 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="text-white">
+        <div className="text-white pt-20">
           <div className="flex items-end space-x-2 self-center">
             <h1 className="text-center flex text-9xl font-horizon">
-              Galaxy Traveller
+              <Image
+                src="/logo_GT_full.png" // Mettez le chemin correct de votre image
+                alt="Galaxy Traveller"
+                width={600} // Spécifiez la largeur désirée
+                height={150} // Spécifiez la hauteur désirée
+                className="text-center flex p-5" // Vous pouvez appliquer des classes Tailwind ici si nécessaire
+              />
             </h1>
           </div>
           <div className="flex mt-20 justify-center">
             <a href="/asset7.png" download={true}>
-              <div className="animate-bounce transition font-semibold ease-in-out hover:text-xl cursor-pointer text-lg">
+              <div className="animate-bounce transition font-semibold ease-in-out hover:text-xl cursor-pointer text-lg p-2 border-2 rounded-lg">
                 Télécharger Maintenant
               </div>
             </a>

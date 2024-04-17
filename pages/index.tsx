@@ -20,13 +20,12 @@ export default function Home() {
       >
         <div className="text-white pt-20">
           <div className="flex items-end space-x-2 self-center">
-            <h1 className="text-center flex text-9xl font-horizon">
+            <h1 className="text-center flex text-9xl p-5">
               <Image
                 src="/logo_GT_full.png" // Mettez le chemin correct de votre image
                 alt="Galaxy Traveller"
                 width={600} // Spécifiez la largeur désirée
                 height={150} // Spécifiez la hauteur désirée
-                className="text-center flex p-5" // Vous pouvez appliquer des classes Tailwind ici si nécessaire
               />
             </h1>
           </div>
@@ -66,7 +65,7 @@ export default function Home() {
 
           <div className="rounded-lg bg-white text-indigo-900">
             <div
-              className="relative w-full overflow-hiddenw-full h-full rounded-tl-lg rounded-tr-lg overflow-hidden"
+              className="relative w-full overflow-hidden-full h-full rounded-tl-lg rounded-tr-lg"
               style={{ paddingTop: "40%" }}
             >
               <Image
@@ -82,8 +81,8 @@ export default function Home() {
               </div>
               <br />
               <div className="text-justify">
-                Atteignez le vaisseau avant que votre réserve d'oxygène ne
-                s'épuise. Assurez-vous de rejoindre votre destination spatiale
+                Atteignez le vaisseau avant que votre réserve d{"'"}oxygène ne
+                s{"'"}épuise. Assurez-vous de rejoindre votre destination spatiale
                 dans les temps.
               </div>
             </div>
@@ -91,7 +90,7 @@ export default function Home() {
 
           <div className="rounded-lg bg-white text-indigo-900">
             <div
-              className="relative w-full overflow-hiddenw-full h-full rounded-tl-lg rounded-tr-lg overflow-hidden"
+              className="relative w-full overflow-hidden-full h-full rounded-tl-lg rounded-tr-lg"
               style={{ paddingTop: "40%" }}
             >
               <Image
@@ -117,7 +116,7 @@ export default function Home() {
 
           <div className="rounded-lg bg-white text-indigo-900">
             <div
-              className="relative w-full overflow-hiddenw-full h-full rounded-tl-lg rounded-tr-lg overflow-hidden"
+              className="relative w-full overflow-hidden-full h-full rounded-tl-lg rounded-tr-lg"
               style={{ paddingTop: "40%" }}
             >
               <Image

@@ -12,7 +12,7 @@ export default function Home() {
       <div
         className="text-blackv min-h-screen h-auto flex items-center justify-center bg-blackv"
         style={{
-          backgroundImage: "url('asset6.png')",
+          backgroundImage: "url('main_bg.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -22,10 +22,10 @@ export default function Home() {
           <div className="flex items-end space-x-2 self-center">
             <h1 className="text-center flex text-9xl p-5">
               <Image
-                src="/logo_GT_full.png" // Mettez le chemin correct de votre image
+                src="/logo_GT_full.png"
                 alt="Galaxy Traveller"
-                width={600} // Spécifiez la largeur désirée
-                height={150} // Spécifiez la hauteur désirée
+                width={600}
+                height={150}
               />
             </h1>
           </div>
@@ -65,12 +65,12 @@ export default function Home() {
 
           <div className="rounded-lg bg-white text-indigo-900">
             <div
-              className="relative w-full overflow-hidden-full h-full rounded-tl-lg rounded-tr-lg"
+              className="relative w-full overflow-hidden h-full rounded-tl-lg rounded-tr-lg"
               style={{ paddingTop: "40%" }}
             >
               <Image
                 src="/asset6.png"
-                alt="cygnus logo"
+                alt="random"
                 layout="fill"
                 objectFit="cover"
               />
@@ -90,12 +90,12 @@ export default function Home() {
 
           <div className="rounded-lg bg-white text-indigo-900">
             <div
-              className="relative w-full overflow-hidden-full h-full rounded-tl-lg rounded-tr-lg"
+              className="relative w-full overflow-hidden h-full rounded-tl-lg rounded-tr-lg"
               style={{ paddingTop: "40%" }}
             >
               <Image
                 src="/asset6.png"
-                alt="cygnus logo"
+                alt="random"
                 layout="fill"
                 objectFit="cover"
               />
@@ -116,12 +116,12 @@ export default function Home() {
 
           <div className="rounded-lg bg-white text-indigo-900">
             <div
-              className="relative w-full overflow-hidden-full h-full rounded-tl-lg rounded-tr-lg"
+              className="relative w-full overflow-hidden h-full rounded-tl-lg rounded-tr-lg"
               style={{ paddingTop: "40%" }}
             >
               <Image
                 src="/asset6.png"
-                alt="cygnus logo"
+                alt="random"
                 layout="fill"
                 objectFit="cover"
               />

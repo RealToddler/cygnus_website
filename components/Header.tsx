@@ -12,7 +12,6 @@ const Header = () => {
             width={80}
             height={80}
             className="text-center flex p-2"
-
           />
         </Link>
         <div className="flex self-center space-x-8 md:text-xl font-bold text-white">

@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Header />
       <div
-        className="text-blackv min-h-screen h-auto flex items-center justify-center bg-blackv"
+        className="text-blackv h-screen h-auto flex items-center justify-center bg-blackv"
         style={{
           backgroundImage: "url('main_bg.jpg')",
           backgroundSize: "cover",
@@ -18,18 +18,16 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="text-white pt-20">
-          <div className="flex items-end space-x-2 self-center">
-            <h1 className="text-center flex text-9xl p-5">
-              <Image
-                src="/logo_GT_full.png"
-                alt="Galaxy Traveller"
-                width={600}
-                height={150}
-              />
-            </h1>
+        <div className="flex flex-col items-center justify-center">
+          <div className="flex justify-center mb-8 mt-16 ml-8 mr-8">
+            <Image
+              src="/logo_GT_full.png"
+              alt="Galaxy Traveller"
+              width={600}
+              height={150}
+            />
           </div>
-          <div className="flex mt-20 justify-center">
+          <div className="flex justify-center text-white">
             <a href="/asset7.png" download={true}>
               <div className="animate-bounce transition font-semibold ease-in-out hover:text-xl cursor-pointer text-lg p-2 border-2 rounded-lg">
                 Télécharger Maintenant
@@ -81,9 +79,9 @@ export default function Home() {
               </div>
               <br />
               <div className="text-justify">
-                Atteignez le vaisseau avant que votre réserve d{"'"}oxygène ne
-                s{"'"}épuise. Assurez-vous de rejoindre votre destination spatiale
-                dans les temps.
+                Atteignez le vaisseau avant que votre réserve d{"'"}oxygène ne s
+                {"'"}épuise. Assurez-vous de rejoindre votre destination
+                spatiale dans les temps.
               </div>
             </div>
           </div>
@@ -142,7 +140,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="md:h-fit text-white bg-blackv">
+      <div className="text-white bg-blackv pb-16">
         <div className="flex text-xl items-center pb-8 min-h-auto md:px-64 px-8">
           <div className="space-y-12">
             <div className="text-5xl font-bold pt-8" id="team">
@@ -160,7 +158,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center w-full text-blackv pb-8">
+        <div className="flex justify-center w-full text-blackv">
           <div
             className="pb-4 gap-4 grid grid-cols-1 px-16 md:px-0
         md:py-0 md:space-y-0 md:flex justify-center md:space-x-12 md:items-center md:w-full"
@@ -219,29 +217,35 @@ export default function Home() {
                 </div>
                 <div className="w-full md:px-32 px-8 space-y-4 py-4 font-semibold">
                   <div className="text-xl">Tutoriels</div>
+                  <div className="flex items-center justify-center">
+                    Playlists
+                  </div>
                   <div className="flex justify-center font-semibold">
                     <div className="space-y-4">
                       <div>
                         <LinkCard
-                          label="Première playlist de Tutos Unity (IA & Mécaniques de combat)"
+                          label="IA & Mécaniques de combat"
                           url="https://www.youtube.com/watch?v=eTulYE72ixc&list=PLUWxWDlz8PYIvzRTHyvx54tgWTCkgZzkZ"
                         />
                       </div>
                       <div className="">
                         <LinkCard
-                          label="Seconde playlist de Tutos Unity (déplacements & plateformes)"
+                          label="Déplacements & plateformes"
                           url="https://www.youtube.com/watch?v=n0GQL5JgJcY&list=PLrnPJCHvNZuB5ATsJZLKX3AW4V9XaIV9b"
                         />
                       </div>
                       <div>
                         <LinkCard
-                          label="Troisième playlist de Tutos Unity (Réseau avec Photon)"
+                          label="Réseau avec Photon"
                           url="https://www.youtube.com/watch?v=H7r_rgKAlLA&list=PLpfOedZZax4xSyUKOk17b6NIL5dO7gWo-"
                         />
                       </div>
+                      <div className="flex items-center justify-center">
+                        Vidéos
+                      </div>
                       <div>
                         <LinkCard
-                          label="Vidéo pour la création de rooms privées avec Photon"
+                          label="Création de rooms privées avec Photon"
                           url="https://www.youtube.com/watch?v=93SkbMpWCGo"
                         />
                       </div>

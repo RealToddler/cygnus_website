@@ -4,13 +4,14 @@ import MemberCard from "@/components/MemberCard";
 import RessourceContent from "@/components/RessourceContent";
 import LinkCard from "@/components/LinkCard";
 import Image from "next/image";
+import Carousel from "@/components/Carousel";
 
 export default function Home() {
   return (
     <>
       <Header />
       <div
-        className="text-blackv h-screen h-auto flex items-center justify-center bg-blackv"
+        className="text-blackv h-screen md-h-auto flex items-center justify-center bg-blackv"
         style={{
           backgroundImage: "url('main_bg.jpg')",
           backgroundSize: "cover",
@@ -85,7 +86,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
           <div className="rounded-lg bg-white text-indigo-900">
             <div
               className="relative w-full overflow-hidden h-full rounded-tl-lg rounded-tr-lg"
@@ -138,6 +138,11 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="py-8 bg-gradient-to-b from-blackv to-tekhelet">
+        <div>
+          <Carousel />
         </div>
       </div>
       <div className="text-white bg-blackv pb-16">
@@ -207,12 +212,18 @@ export default function Home() {
                       title="Cahier des charges"
                       path="Galaxy Traveller CDC.pdf"
                     />
-                    <RessourceContent title="Manuel d'installation" path="/" />
+                    <RessourceContent
+                      title="Manuel d'installation"
+                      path="/Manuel_d_installation.pdf"
+                    />
                     <RessourceContent
                       title="Rapport de soutenance"
                       path="Rapport_de_soutenance_1.pdf"
                     />
-                    <RessourceContent title="Rapport de projet" path="/" />
+                    <RessourceContent
+                      title="Rapport de projet"
+                      path="/Rapport_de_projet.pdf"
+                    />
                   </div>
                 </div>
                 <div className="w-full md:px-32 px-8 space-y-4 py-4 font-semibold">

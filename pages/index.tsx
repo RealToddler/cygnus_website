@@ -214,7 +214,7 @@ export default function Home() {
                     />
                     <RessourceContent
                       title="Manuel d'installation"
-                      path="/Manuel_d_installation.pdf"
+                      path="Manuel_d_installation.pdf"
                     />
                     <RessourceContent
                       title="Rapport de soutenance"
@@ -222,7 +222,7 @@ export default function Home() {
                     />
                     <RessourceContent
                       title="Rapport de projet"
-                      path="/Rapport_de_projet.pdf"
+                      path="Rapport_de_projet.pdf"
                     />
                   </div>
                 </div>
@@ -277,6 +277,31 @@ export default function Home() {
                         <LinkCard
                           label="Documentation Unity"
                           url="https://docs.unity.com/"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:px-32 px-8 space-y-4 py-4">
+                  <div className="text-xl font-semibold">Visuels</div>
+                  <div className="flex justify-center">
+                    <div className="space-y-4">
+                      <div>
+                        <LinkCard
+                          label="Unity Asset Store (assets)"
+                          url="https://assetstore.unity.com/"
+                        />
+                      </div>
+                      <div className="">
+                        <LinkCard
+                          label="CGTrader (assets)"
+                          url="https://www.cgtrader.com/"
+                        />
+                      </div>
+                      <div className="">
+                        <LinkCard
+                          label="Mixamo (animations)"
+                          url="https://www.mixamo.com/"
                         />
                       </div>
                     </div>

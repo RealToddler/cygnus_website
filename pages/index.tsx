@@ -147,7 +147,7 @@ export default function Home() {
       </div>
       <div className="text-white bg-blackv pb-16">
         <div className="flex text-xl items-center pb-8 min-h-auto md:px-64 px-8">
-          <div className="space-y-12">
+          <div className="space-y-12 w-full">
             <div className="text-5xl font-bold pt-8" id="team">
               L{"'"}équipe
             </div>

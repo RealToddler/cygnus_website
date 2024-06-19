@@ -5,6 +5,7 @@ import RessourceContent from "@/components/RessourceContent";
 import LinkCard from "@/components/LinkCard";
 import Image from "next/image";
 import Carousel from "@/components/Carousel";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -29,7 +30,10 @@ export default function Home() {
             />
           </div>
           <div className="flex justify-center text-white">
-            <a href="/asset7.png" download={true}>
+            <a
+              href="https://drive.google.com/drive/folders/1c6RyBT-0GKY2lUTlk7an34ROlGWzWP6Y?usp=drive_link"
+              target="_blank"
+            >
               <div className="animate-bounce transition font-semibold ease-in-out hover:text-xl cursor-pointer text-lg p-2 border-2 rounded-lg">
                 Télécharger Maintenant
               </div>
